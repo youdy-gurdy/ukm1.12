@@ -1,0 +1,162 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  TransformLoader (DynamicSurroundings-1.12.2-3.6.1.0.jar)
+  Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  SSLoadingPlugin (SereneSeasons-1.12.2-1.2.18-universal.jar)
+  PhosphorFMLLoadingPlugin (phosphor-1.12.2-0.2.6+build50.jar)
+  CQRPlugin (Chocolate_Quest_Repoured-1.12.2-2.6.14B.jar)
+  ForgelinPlugin (Forgelin-1.8.4.jar)
+  ReachFixPlugin (ReachFix-1.12.2-1.0.9.jar)
+  MekanismCoremod (Mekanism-1.12.2-9.8.3.390.jar)
+  CXLibraryCore (cxlibrary-1.12.1-1.6.1.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  EnderCorePlugin (EnderCore-1.12.2-0.5.78-core.jar)
+Contact their authors BEFORE contacting forge
+
+// You're mean.
+
+Time: 23/08/31 11:33
+Description: Exception in server tick loop
+
+Missing Mods:
+	unknown : need [3.0.19,): have 3.0.0
+
+net.minecraftforge.fml.common.MissingModsException: Mod cqrepoured (Chocolate Quest Repoured Mod) requires [geckolib3@[3.0.19,)]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_381, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 10702439504 bytes (10206 MB) / 12348030976 bytes (11776 MB) up to 12348030976 bytes (11776 MB)
+	JVM Flags: 2 total; -Xmx12G -Xms12G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2859 82 mods loaded, 82 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                                | Version                  | Source                                             | Signature                                |
+	|:----- |:--------------------------------- |:------------------------ |:-------------------------------------------------- |:---------------------------------------- |
+	| L     | minecraft                         | 1.12.2                   | minecraft.jar                                      | None                                     |
+	| L     | mcp                               | 9.42                     | minecraft.jar                                      | None                                     |
+	| L     | FML                               | 8.0.99.99                | forge-1.12.2-14.23.5.2859.jar                      | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | forge                             | 14.23.5.2859             | forge-1.12.2-14.23.5.2859.jar                      | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | aether                            | 0.3.0                    | aether_ii-1.12.2-0.3.0+build411-universal.jar      | None                                     |
+	| L     | animalbikes                       | 1.11.2                   | AnimalBikes_1.12.2(13Jan19).jar                    | None                                     |
+	| L     | aoa3                              | 3.3.6                    | AoA3-3.3.6.jar                                     | None                                     |
+	| L     | appleskin                         | 1.0.14                   | AppleSkin-mc1.12-1.0.14.jar                        | None                                     |
+	| L     | bdlib                             | 1.14.4.1                 | bdlib-1.14.4.1-mc1.12.2.jar                        | None                                     |
+	| L     | bettercaves                       | 1.12.2                   | bettercaves-1.12.2-2.0.4.jar                       | None                                     |
+	| L     | bettermineshafts                  | 1.12.2-2.2.1             | BetterMineshaftsForge-1.12.2-2.2.1.jar             | None                                     |
+	| L     | brandonscore                      | 2.4.20                   | BrandonsCore-1.12.2-2.4.20.162-universal.jar       | None                                     |
+	| L     | chameleon                         | 1.12-4.1.3               | Chameleon-1.12-4.1.3.jar                           | None                                     |
+	| L     | cqrepoured                        | 2.6.14B                  | Chocolate_Quest_Repoured-1.12.2-2.6.14B.jar        | None                                     |
+	| L     | clumps                            | 3.1.2                    | Clumps-3.1.2.jar                                   | None                                     |
+	| L     | codechickenlib                    | 3.2.3.358                | CodeChickenLib-1.12.2-3.2.3.358-universal.jar      | None                                     |
+	| L     | craftingtweaks                    | 8.1.9                    | CraftingTweaks_1.12.2-8.1.9.jar                    | None                                     |
+	| L     | cxlibrary                         | 1.6.1                    | cxlibrary-1.12.1-1.6.1.jar                         | None                                     |
+	| L     | cyclicmagic                       | 1.20.12                  | Cyclic-1.12.2-1.20.14.jar                          | None                                     |
+	| L     | divinerpg                         | 1.7.1                    | DivineRPG-1.7.1.jar                                | None                                     |
+	| L     | draconicevolution                 | 2.3.28                   | Draconic-Evolution-1.12.2-2.3.28.354-universal.jar | None                                     |
+	| L     | dsurround                         | 3.6.1.0                  | DynamicSurroundings-1.12.2-3.6.1.0.jar             | None                                     |
+	| L     | endercore                         | 1.12.2-0.5.78            | EnderCore-1.12.2-0.5.78.jar                        | None                                     |
+	| L     | enderio                           | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                          | None                                     |
+	| L     | enderiobase                       | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                          | None                                     |
+	| L     | enderioconduitsappliedenergistics | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                          | None                                     |
+	| L     | enderioconduitsopencomputers      | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                          | None                                     |
+	| L     | enderioconduitsrefinedstorage     | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                          | None                                     |
+	| L     | enderioconduits                   | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                          | None                                     |
+	| L     | enderiointegrationforestry        | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                          | None                                     |
+	| L     | enderiointegrationtic             | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                          | None                                     |
+	| L     | enderiointegrationticlate         | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                          | None                                     |
+	| L     | enderioinvpanel                   | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                          | None                                     |
+	| L     | enderiomachines                   | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                          | None                                     |
+	| L     | enderiopowertools                 | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                          | None                                     |
+	| L     | farmingforblockheads              | 3.1.28                   | FarmingForBlockheads_1.12.2-3.1.28.jar             | None                                     |
+	| L     | fastleafdecay                     | v14                      | FastLeafDecay-v14.jar                              | None                                     |
+	| L     | findme                            | 1.1.0                    | findme-1.12.2-1.1.0-8.jar                          | None                                     |
+	| L     | foreveryoung                      | 1.0                      | foreveryoung-1.12.2-1.0.jar                        | None                                     |
+	| L     | geckolib3                         | 3.0.0                    | forge-1.12.2-geckolib-3.0.0-beta.7.jar             | None                                     |
+	| L     | forgelin                          | 1.8.4                    | Forgelin-1.8.4.jar                                 | None                                     |
+	| L     | forgivingvoid                     | 1.1.0                    | ForgivingVoid_1.12.2-1.1.0.jar                     | None                                     |
+	| L     | friendlyfire                      | 1.5.10                   | FriendlyFire-1.12.2-1.5.10.jar                     | None                                     |
+	| L     | ftbbackups                        | 1.1.0.1                  | FTBBackups-1.1.0.1.jar                             | None                                     |
+	| L     | furenikuscities                   | 0.1.0                    | Furenikus_Cities-1.0.0-beta-2.jar                  | None                                     |
+	| L     | cfm                               | 6.3.0                    | furniture-6.3.2-1.12.2.jar                         | None                                     |
+	| L     | gravestone                        | 1.10.3                   | gravestone-1.10.3.jar                              | None                                     |
+	| L     | waila                             | 1.8.26                   | Hwyla-1.8.26-B41_1.12.2.jar                        | None                                     |
+	| L     | inventorysorter                   | 1.13.3+57                | inventorysorter-1.12.2-1.13.3+57.jar               | None                                     |
+	| L     | inventorytweaks                   | 1.63+release.109.220f184 | InventoryTweaks-1.63.jar                           | None                                     |
+	| L     | jaopca                            | 1.12.2-2.2.8.106         | JAOPCA-1.12.2-2.2.8.106.jar                        | None                                     |
+	| L     | oredictinit                       | 1.12.2-2.2.1.72          | JAOPCA-1.12.2-2.2.8.106.jar                        | None                                     |
+	| L     | jei                               | 4.16.1.301               | jei_1.12.2-4.16.1.301.jar                          | None                                     |
+	| L     | journeymap                        | 1.12.2-5.7.1             | journeymap-1.12.2-5.7.1.jar                        | None                                     |
+	| L     | libraryex                         | 1.2.2                    | LibraryEx-1.12.2-1.2.2.jar                         | None                                     |
+	| L     | mekanism                          | 1.12.2-9.8.3.390         | Mekanism-1.12.2-9.8.3.390.jar                      | None                                     |
+	| L     | mekanismgenerators                | 1.12.2-9.8.3.390         | MekanismGenerators-1.12.2-9.8.3.390.jar            | None                                     |
+	| L     | mekanismtools                     | 1.12.2-9.8.3.390         | MekanismTools-1.12.2-9.8.3.390.jar                 | None                                     |
+	| L     | morefurnaces                      | 1.10.5                   | MoreFurnaces-1.12.2-1.10.6.jar                     | None                                     |
+	| L     | morpheus                          | 1.12.2-3.5.106           | Morpheus-1.12.2-3.5.106.jar                        | None                                     |
+	| L     | netherex                          | 2.2.5                    | NetherEx-1.12.2-2.2.5.jar                          | None                                     |
+	| L     | notenoughpets                     | 2.3.6                    | NotEnoughPets-1.12.2-2.3.6.jar                     | None                                     |
+	| L     | brewcraft                         | 1.12.2-1.0.2             | Pam's BrewCraft 1.12.2-1.0.2.jar                   | None                                     |
+	| L     | patchouli                         | 1.0-23.6                 | Patchouli-1.0-23.6.jar                             | None                                     |
+	| L     | performant                        | 1.12.2-1.5               | performant-1.11.jar                                | None                                     |
+	| L     | reachfix                          | 1.0.9                    | ReachFix-1.12.2-1.0.9.jar                          | None                                     |
+	| L     | redstoneflux                      | 2.1.1                    | RedstoneFlux-1.12-2.1.1.1-universal.jar            | None                                     |
+	| L     | refinedstorage                    | 1.6.16                   | refinedstorage-1.6.16.jar                          | None                                     |
+	| L     | refinedstorageaddons              | 0.4.5                    | refinedstorageaddons-0.4.5.jar                     | None                                     |
+	| L     | sereneseasons                     | 1.2.18                   | SereneSeasons-1.12.2-1.2.18-universal.jar          | None                                     |
+	| L     | simplylight                       | 1.12.2-0.8.7             | simplylight-1.12.2-0.8.7.jar                       | None                                     |
+	| L     | storagedrawers                    | 5.5.0                    | StorageDrawers-1.12.2-5.5.0.jar                    | None                                     |
+	| L     | torchmaster                       | 1.8.5.0                  | torchmaster_1.12.2-1.8.5.0.jar                     | None                                     |
+	| L     | trashslot                         | 8.4.10                   | TrashSlot_1.12.2-8.4.10.jar                        | None                                     |
+	| L     | travelersbackpack                 | 1.0.35                   | TravelersBackpack-1.12.2-1.0.35.jar                | None                                     |
+	| L     | twilightforest                    | 3.11.1021                | twilightforest-1.12.2-3.11.1021-universal.jar      | None                                     |
+	| L     | veinminer                         | 0.38.2                   | VeinMiner-1.12-0.38.2.647+b31535a.jar              | None                                     |
+	| L     | veinminermodsupport               | 0.38.2                   | VeinMiner-1.12-0.38.2.647+b31535a.jar              | None                                     |
+	| L     | wrapup                            | 1.12-1.1.3               | WrapUp-1.12-1.1.3.jar                              | None                                     |
+	| L     | orbis-lib                         | 0.2.0                    | orbis-lib-1.12.2-0.2.0+build411.jar                | None                                     |
+	| L     | phosphor-lighting                 | 1.12.2-0.2.6             | phosphor-1.12.2-0.2.6+build50.jar                  | None                                     |
+	| L     | orelib                            | 3.6.0.1                  | OreLib-1.12.2-3.6.0.1.jar                          | None                                     |
+
+	Loaded coremods (and transformers): 
+TransformLoader (DynamicSurroundings-1.12.2-3.6.1.0.jar)
+  
+Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+SSLoadingPlugin (SereneSeasons-1.12.2-1.2.18-universal.jar)
+  sereneseasons.asm.transformer.EntityRendererTransformer
+  sereneseasons.asm.transformer.WorldTransformer
+PhosphorFMLLoadingPlugin (phosphor-1.12.2-0.2.6+build50.jar)
+  
+CQRPlugin (Chocolate_Quest_Repoured-1.12.2-2.6.14B.jar)
+  team.cqr.cqrepoured.asm.CQRClassTransformer
+ForgelinPlugin (Forgelin-1.8.4.jar)
+  
+ReachFixPlugin (ReachFix-1.12.2-1.0.9.jar)
+  meldexun.reachfix.asm.ReachFixClassTransformer
+MekanismCoremod (Mekanism-1.12.2-9.8.3.390.jar)
+  mekanism.coremod.KeybindingMigrationHelper
+CXLibraryCore (cxlibrary-1.12.1-1.6.1.jar)
+  cubex2.cxlibrary.CoreModTransformer
+CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+EnderCorePlugin (EnderCore-1.12.2-0.5.78-core.jar)
+  com.enderio.core.common.transform.EnderCoreTransformer
+  com.enderio.core.common.transform.SimpleMixinPatcher
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

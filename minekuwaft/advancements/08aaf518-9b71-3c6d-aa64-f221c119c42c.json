@@ -1,0 +1,210 @@
+{
+  "minecraft:recipes/redstone/wooden_button": {
+    "criteria": {
+      "has_planks": "2023-09-04 11:52:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2023-09-04 11:55:29 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2023-09-04 11:19:59 +0900"
+    },
+    "done": true
+  },
+  "cqrepoured:cqr/root": {
+    "criteria": {
+      "tick": "2023-09-04 10:56:35 +0900"
+    },
+    "done": true
+  },
+  "divinerpg:overworld/towering_guardian": {
+    "criteria": {
+      "kill_boss_ancient_entity": "2023-09-04 11:47:56 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wooden_slab": {
+    "criteria": {
+      "has_planks": "2023-09-04 11:52:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fence": {
+    "criteria": {
+      "has_planks": "2023-09-04 11:52:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "baked_potato": "2023-09-04 11:06:27 +0900"
+    },
+    "done": false
+  },
+  "aoa3:overworld/by_the_books": {
+    "criteria": {
+      "legitimate": "2023-09-04 10:56:35 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2023-09-04 11:39:50 +0900"
+    },
+    "done": true
+  },
+  "aoa3:overworld/root": {
+    "criteria": {
+      "playerjoin": "2023-09-04 10:56:35 +0900"
+    },
+    "done": true
+  },
+  "cfm:root": {
+    "criteria": {
+      "tick": "2023-09-04 10:56:35 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2023-09-04 10:56:35 +0900",
+      "extreme_hills_with_trees": "2023-09-04 11:03:54 +0900",
+      "plains": "2023-09-04 11:01:40 +0900",
+      "extreme_hills": "2023-09-04 11:02:37 +0900",
+      "river": "2023-09-04 11:02:16 +0900"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_log": "2023-09-04 11:55:17 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2023-09-04 11:52:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2023-09-04 11:58:29 +0900"
+    },
+    "done": true
+  },
+  "divinerpg:overworld/root": {
+    "criteria": {
+      "divinerpg": "2023-09-04 10:56:35 +0900"
+    },
+    "done": true
+  },
+  "aoa3:completionist/my_first_level": {
+    "criteria": {
+      "firstlevel": "2023-09-04 12:04:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapdoor": {
+    "criteria": {
+      "has_planks": "2023-09-04 11:52:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-09-04 11:06:27 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-09-04 11:19:27 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2023-09-04 11:19:59 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2023-09-04 11:52:19 +0900"
+    },
+    "done": true
+  },
+  "cfm:install": {
+    "criteria": {
+      "tick": "2023-09-04 10:56:35 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/fence_gate": {
+    "criteria": {
+      "has_planks": "2023-09-04 11:52:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2023-09-04 11:19:59 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-09-04 11:52:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2023-09-04 11:52:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_door": {
+    "criteria": {
+      "has_planks": "2023-09-04 11:52:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2023-09-04 11:31:20 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2023-09-04 11:19:59 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sign": {
+    "criteria": {
+      "has_planks": "2023-09-04 11:52:19 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2023-09-04 11:19:59 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2023-09-04 11:19:59 +0900"
+    },
+    "done": true
+  }
+}

@@ -1,0 +1,1425 @@
+{
+	"biome": "netherex:torrid_wasteland",
+	"generationWeight": 6,
+	"useDefaultDecorations": true,
+	"isSubBiome": false,
+	"blocks": {
+		"surface": {
+			"block": "netherex:fiery_netherrack"
+		},
+		"liquid": {
+			"block": "minecraft:lava"
+		},
+		"subsurface": {
+			"block": "netherex:fiery_netherrack"
+		}
+	},
+	"entities": [
+		{
+			"spawnWeight": 30,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 4,
+			"entity": "minecraft:magma_cube"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "netherex:ember"
+		}, 
+		{
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 2,
+			"entity": "netherex:salamander"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:zombiecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:zombievillagercreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:silentcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:sandcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:watercreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:lavacreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:firecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:icecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:endercreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:lightcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:hotspringcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:skeletoncreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:objetcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:treecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:fishcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:subsidencecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:fireworkscreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:spidercreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:happinesscreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:glasscreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "takumicraft:glowstonecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:stonecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:woodcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:dirtcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:lostcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:fallcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:arrowcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:weathercreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:colorcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:musiccreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:inversioncreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:concretecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:straightcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:crosscreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:shadowcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:terracottacreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:wearcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:farmcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:noobcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:hoecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:stingycreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:invisiblecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:randcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:epcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:cactuscreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:grasscreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:boxcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:crystalcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:deteriorationcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:disordercreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:bonecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:mastercreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:spongecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:clockcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:beetrootcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:mirrorcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:whiteeyescreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:hyperspacecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:mothercreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:constructcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:doublecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:meatcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:nerdcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:daimonjicreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:keepcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:shrinkcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:tosscreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:fakecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:poisoncreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:myceliumcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:evaporationcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:pulsecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:nightmarecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:heavycreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:slightcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:pumpkincreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:fogcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:windowscreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:statuecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:patinacreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:naturalcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:bangcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:frostcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:magmacreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:sandstormcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:wrylycreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:diamondcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:redstonecreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:emeraldcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:ironcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:lapiscreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:voidcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:witchcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:destructioncreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:creativecreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:earthcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:darkcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:artcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:rewritecreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:reversecreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:chunkcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:fightercreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:leadcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:rushcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:callcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:chestcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:uppercreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:gorgeouscreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:luckcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:onecreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:antinomycreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:bedcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:acidcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:piercecreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:endermitecreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:roundcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:craftsmancreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:vindicatorcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:evokercreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:illusionercreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:expcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:sinobicreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:shootingcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:fallingslimecreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:fallingbombcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:blackcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:angrycreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:jumpcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:robocreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:dancecreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:gatecreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:dashcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:launchcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:returncreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:anvilcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:viruscreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:poweredcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:unlimitedcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:bigspidercreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:minecreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:ballooncreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:oceancreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:forestcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:floatcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:sleepercreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:nethercreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:fescreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:levelupcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:fastcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:shockcreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:linecreeper"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 20,
+			"maximumGroupCount": 40,
+			"entity": "takumicraft:makeupcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:tearcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:crycreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:opaquecreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:chasecreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:mousecreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:evolutioncreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:obsidiancreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:slipcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:edgycreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:psychiccreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:phantomcreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:iceologercreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:corruptioncreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:smokecreeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 10,
+			"maximumGroupCount": 20,
+			"entity": "takumicraft:ghostcreeper"
+		}, 
+		{
+			"spawnWeight": 5,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "aoa3:everbeast"
+		}, 
+		{
+			"spawnWeight": 1,
+			"minimumGroupCount": 0,
+			"maximumGroupCount": 1,
+			"entity": "aoa3:bomb_carrier"
+		}, 
+		{
+			"spawnWeight": 75,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "aoa3:rammerhead"
+		}, 
+		{
+			"spawnWeight": 35,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "aoa3:dicer"
+		}, 
+		{
+			"spawnWeight": 1,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "aoa3:demon_reaper"
+		}, 
+		{
+			"spawnWeight": 65,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "aoa3:void_charger"
+		}, 
+		{
+			"spawnWeight": 75,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "aoa3:chimera"
+		}, 
+		{
+			"spawnWeight": 65,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "aoa3:faceless_runner"
+		}, 
+		{
+			"spawnWeight": 65,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "aoa3:shadow"
+		}, 
+		{
+			"spawnWeight": 65,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "aoa3:clown"
+		}, 
+		{
+			"spawnWeight": 65,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "aoa3:void_walker"
+		}, 
+		{
+			"spawnWeight": 40,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "aoa3:trickster"
+		}, 
+		{
+			"spawnWeight": 65,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "aoa3:ghost"
+		}, 
+		{
+			"spawnWeight": 35,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "aoa3:night_reaper"
+		}, 
+		{
+			"spawnWeight": 65,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "aoa3:mother_void_walker"
+		}, 
+		{
+			"spawnWeight": 70,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "aoa3:bugeye"
+		}, 
+		{
+			"spawnWeight": 75,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "aoa3:boneback"
+		}, 
+		{
+			"spawnWeight": 4,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "lycanitesmobs:barghest"
+		}, 
+		{
+			"spawnWeight": 6,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "lycanitesmobs:kobold"
+		}, 
+		{
+			"spawnWeight": 2,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "lycanitesmobs:crusk"
+		}, 
+		{
+			"spawnWeight": 2,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 2,
+			"entity": "lycanitesmobs:astaroth"
+		}, 
+		{
+			"spawnWeight": 1,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "lycanitesmobs:zoataur"
+		}, 
+		{
+			"spawnWeight": 6,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "lycanitesmobs:gorgomite"
+		}, 
+		{
+			"spawnWeight": 8,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "lycanitesmobs:cryptkeeper"
+		}, 
+		{
+			"spawnWeight": 2,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "lycanitesmobs:behemoth"
+		}, 
+		{
+			"spawnWeight": 4,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "lycanitesmobs:quillbeast"
+		}, 
+		{
+			"spawnWeight": 6,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "lycanitesmobs:clink"
+		}, 
+		{
+			"spawnWeight": 1,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "lycanitesmobs:archvile"
+		}, 
+		{
+			"spawnWeight": 2,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "lycanitesmobs:vorach"
+		}, 
+		{
+			"spawnWeight": 8,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "lycanitesmobs:sutiramu"
+		}, 
+		{
+			"spawnWeight": 4,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 2,
+			"entity": "lycanitesmobs:erepede"
+		}, 
+		{
+			"spawnWeight": 8,
+			"minimumGroupCount": 3,
+			"maximumGroupCount": 6,
+			"entity": "lycanitesmobs:trite"
+		}, 
+		{
+			"spawnWeight": 6,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "lycanitesmobs:ventoraptor"
+		}, 
+		{
+			"spawnWeight": 8,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "lycanitesmobs:belph"
+		}, 
+		{
+			"spawnWeight": 4,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "lycanitesmobs:feradon"
+		}, 
+		{
+			"spawnWeight": 20,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "aoa3:elkanyne"
+		}, 
+		{
+			"spawnWeight": 8,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "lycanitesmobs:arisaur"
+		}, 
+		{
+			"spawnWeight": 8,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "lycanitesmobs:joust"
+		}, 
+		{
+			"spawnWeight": 6,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "lycanitesmobs:pinky"
+		}, 
+		{
+			"spawnWeight": 16,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "lycanitesmobs:maka"
+		}
+	],
+	"traits": [
+		{
+			"generationAttempts": 8,
+			"generationStage": "terrain_alteration",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 10,
+			"blockToSpawn": {
+				"block": "minecraft:flowing_lava"
+			},
+			"randomizeGenerationAttempts": false,
+			"trait": "libraryex:pool",
+			"maximumGenerationHeight": 108,
+			"blockToSurround": {
+				"block": "netherex:fiery_netherrack"
+			}
+		}, 
+		{
+			"generationAttempts": 16,
+			"generationStage": "decoration",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 4,
+			"blockToTarget": {
+				"block": "netherex:fiery_netherrack"
+			},
+			"blockToSpawn": {
+				"block": "minecraft:flowing_lava"
+			},
+			"randomizeGenerationAttempts": false,
+			"trait": "libraryex:fluid",
+			"maximumGenerationHeight": 124,
+			"generateFalling": false
+		}, 
+		{
+			"generationAttempts": 20,
+			"generationStage": "decoration",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 4,
+			"blockToSpawn": {
+				"block": "minecraft:fire"
+			},
+			"blockToTarget": {
+				"block": "netherex:fiery_netherrack"
+			},
+			"randomizeGenerationAttempts": true,
+			"trait": "libraryex:scatter",
+			"maximumGenerationHeight": 124,
+			"placement": "on_ground"
+		}, 
+		{
+			"generationAttempts": 10,
+			"generationStage": "decoration",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 4,
+			"blockToSpawn": {
+				"block": "minecraft:glowstone"
+			},
+			"randomizeGenerationAttempts": true,
+			"trait": "libraryex:cluster",
+			"maximumGenerationHeight": 124,
+			"blockToAttachTo": {
+				"block": "netherex:fiery_netherrack"
+			},
+			"direction": "down"
+		}, 
+		{
+			"generationAttempts": 10,
+			"generationStage": "decoration",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 1,
+			"blockToSpawn": {
+				"block": "minecraft:glowstone"
+			},
+			"randomizeGenerationAttempts": false,
+			"trait": "libraryex:cluster",
+			"maximumGenerationHeight": 128,
+			"blockToAttachTo": {
+				"block": "netherex:fiery_netherrack"
+			},
+			"direction": "down"
+		}, 
+		{
+			"generationAttempts": 32,
+			"generationStage": "decoration",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 10,
+			"blockToTarget": {
+				"block": "netherex:fiery_netherrack"
+			},
+			"blockToSpawn": {
+				"block": "minecraft:flowing_lava"
+			},
+			"randomizeGenerationAttempts": false,
+			"trait": "libraryex:fluid",
+			"maximumGenerationHeight": 118,
+			"generateFalling": true
+		}, 
+		{
+			"generationAttempts": 16,
+			"generationStage": "ore",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 10,
+			"veinSize": 14,
+			"blockToSpawn": {
+				"block": "netherex:quartz_ore"
+			},
+			"randomizeGenerationAttempts": false,
+			"blockToReplace": {
+				"block": "netherex:fiery_netherrack"
+			},
+			"trait": "libraryex:ore",
+			"maximumGenerationHeight": 108
+		}, 
+		{
+			"generationAttempts": 16,
+			"generationStage": "ore",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 10,
+			"veinSize": 24,
+			"blockToSpawn": {
+				"block": "netherex:basalt"
+			},
+			"randomizeGenerationAttempts": false,
+			"blockToReplace": {
+				"block": "netherex:fiery_netherrack"
+			},
+			"trait": "libraryex:ore",
+			"maximumGenerationHeight": 108
+		}, 
+		{
+			"generationAttempts": 8,
+			"generationStage": "ore",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 10,
+			"veinSize": 32,
+			"blockToSpawn": {
+				"block": "minecraft:magma"
+			},
+			"randomizeGenerationAttempts": false,
+			"blockToReplace": {
+				"block": "netherex:fiery_netherrack"
+			},
+			"trait": "libraryex:ore",
+			"maximumGenerationHeight": 108
+		}
+	],
+	"subBiomes": []
+}

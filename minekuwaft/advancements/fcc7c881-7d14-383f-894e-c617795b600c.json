@@ -1,0 +1,51 @@
+{
+  "divinerpg:overworld/root": {
+    "criteria": {
+      "divinerpg": "2023-09-04 10:54:02 +0900"
+    },
+    "done": true
+  },
+  "aoa3:overworld/by_the_books": {
+    "criteria": {
+      "legitimate": "2023-09-04 10:54:02 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2023-09-04 10:54:21 +0900"
+    },
+    "done": true
+  },
+  "aoa3:overworld/root": {
+    "criteria": {
+      "playerjoin": "2023-09-04 10:54:02 +0900"
+    },
+    "done": true
+  },
+  "cfm:root": {
+    "criteria": {
+      "tick": "2023-09-04 10:54:02 +0900"
+    },
+    "done": true
+  },
+  "cfm:install": {
+    "criteria": {
+      "tick": "2023-09-04 10:54:02 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2023-09-04 10:54:02 +0900",
+      "plains": "2023-09-04 10:54:22 +0900"
+    },
+    "done": false
+  },
+  "cqrepoured:cqr/root": {
+    "criteria": {
+      "tick": "2023-09-04 10:54:02 +0900"
+    },
+    "done": true
+  }
+}
